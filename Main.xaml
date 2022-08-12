@@ -77,7 +77,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[dt_Account]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="334,86.6666666666667" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1" WorkbookPath="Account Information.xlsx" />
-    <ui:BulkAddQueueItems TimeoutMS="{x:Null}" DisplayName="Bulk Add Queue Items" FolderPath="Demo" sap:VirtualizedContainerService.HintSize="334,135.333333333333" sap2010:WorkflowViewState.IdRef="BulkAddQueueItems_2" QueueItemsDataTable="[dt_Account]" QueueName="TaskQueueAccountDetails" />
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[dt_Account]" />
+    <ui:BulkAddQueueItems TimeoutMS="{x:Null}" DisplayName="Bulk Add Queue Items" FolderPath="Demo" sap:VirtualizedContainerService.HintSize="334,135.333333333333" sap2010:WorkflowViewState.IdRef="BulkAddQueueItems_2" QueueItemsDataTable="[dt_Account]" QueueName="TaskQueueAccountDetails" />
   </Sequence>
 </Activity>
